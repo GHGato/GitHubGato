@@ -6,8 +6,13 @@
   padding: 0;
 }
 
+h1, h2 {
+  font-family: "Mansalva", cursive;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
+  width: 70vw;
 }
 
 .main {
@@ -43,7 +48,6 @@ p {
 }
 
 .start-title {
-  font-family: "Mansalva", cursive;
   font-size: 80px;
 }
 
@@ -67,6 +71,10 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.info-title {
+  font-size: 60px;
 }
 
 .info-pic1 {
