@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Landing from './pages/Landing.js'
+import Clone from './pages/Clone.js'
+import Branch from './pages/Branch.js'
+
+const App =() => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Landing />} />
+      <Route path="clone" element={<Clone />} />
+      <Route path="branch" element={<Branch />} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 

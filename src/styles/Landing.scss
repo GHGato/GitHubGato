@@ -1,0 +1,48 @@
+@import "./Variables/Variables.scss";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: $paragraph;
+}
+
+.main {
+    background-color: $bg-color;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.start {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.start-title {
+    font-family: $titles;
+    font-size: 80px;
+}
+
+.start-button {
+    margin: 2em;
+    font-family: $chonky;
+    color: $hacknyu;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-pic1 {
+    width: 50%;
+}
