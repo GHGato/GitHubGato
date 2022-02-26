@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
+.start {
+  background-color: #DEC9E9;
+  height: 100vh;
+  max-width: 100vw;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.start-title {
+  font-family: "Mansalva", cursive;
+  font-size: 80px;
+}
+
+.start-button {
+  margin: 2em;
+  font-family: "Bowlby One", cursive;
+  color: #4627A3;
+}
+/*# sourceMappingURL=Landing.css.map */

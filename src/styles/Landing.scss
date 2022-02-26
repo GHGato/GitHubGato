@@ -1,0 +1,23 @@
+@import "./Variables/Variables.scss";
+
+.start {
+    background-color: $bg-color;
+    height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-title {
+    font-family: $titles;
+    font-size: 80px;
+}
+
+.start-button {
+    margin: 2em;
+    font-family: $chonky;
+    color: $hacknyu;
+}
