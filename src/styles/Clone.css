@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root{
+  --background: #FCF5FF;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+}
+
+.container{
+  padding-left: 1em;
+  margin-right: 1em;
+}
+
+.title{
+  color: black;
+  font-family: 'Mansalva';
+  font-size: 80px;
+  text-align: center;
+
+  margin-bottom: 2em;
+}
+
+.image{
+  width:75%;
+  /* height: 50%; */
+}
+
+.intext-img{
+  display: flex;
+
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.blurb{
+  padding-bottom: 1em;
+}

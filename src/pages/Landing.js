@@ -12,7 +12,9 @@ const Landing =() => {
           <h1 className="start-title">Github Gato</h1>
           <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <img src={GhGato} alt="Github Gato" />
+          <Link to='/Clone'>
           <Button variant="light" size="lg" className="start-button px-5">Git Started</Button>
+          </Link>
         </div>
         
         <div className="info p-5">
