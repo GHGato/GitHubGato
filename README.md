@@ -28,6 +28,6 @@ GitHubGato will take it's next steps towards...
 - Adding in user goals and achievements 
 
 ## Made with ❤️ by Baruch AIS but Cooler Team:
-| Cirill Dalangin | Gerald Marquez | Ying Mai |
+| Cirill Dalangin | Hao Kai (Kevin) Liao | Ying Mai |
 | :----: | :---: | :---: |
 | [<img src="https://avatars2.githubusercontent.com/u/40480780?s=460&u=8c1edf8c533e2fb0a97dfce1342fcf2960a12c1b&v=4" width="100px;"/>](https://florenz.tech/)<br />[🌍](https://florenz.tech/) [💻](https://github.com/cdalangin) [🤝](https://www.linkedin.com/in/cfdalangin/) | [<img src="https://avatars.githubusercontent.com/u/75353560?v=4" width="100px;"/>](#)<br /> [💻](https://github.com/haokliao) [🤝](https://www.linkedin.com/in/haokliao/) | [<img src="https://avatars.githubusercontent.com/u/100448478?v=4" width="100px;"/>](https://github.com/Maiyuwu)<br /> [💻](https://github.com/Maiyuwu) [🤝](https://www.linkedin.com/in/ying-m-mai/) |
