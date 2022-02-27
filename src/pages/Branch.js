@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 const defaultField = {answer: ""};
 
-export default function Clone() {
+export default function Branch() {
   const [field,setField] = useState(defaultField);
 
   const handleSubmit = (eve) => {

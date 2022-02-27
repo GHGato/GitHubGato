@@ -16,7 +16,7 @@
 - Our game branches and levels
 - Our contributions to the project
 # What We Learned
-- How to re-write long technical doccumantation into simple easy to understand format for new GitHub users to understand
+- How to re-write long technical documentation into simple easy to understand format for new GitHub users to understand
 # Next Steps
 GitHubGato will take it's next steps towards...
 - Organizing all GitHub commands into a resource page for easy access 

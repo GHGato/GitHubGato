@@ -54,7 +54,12 @@ p {
 .start-button {
   margin: 2em;
   font-family: "Bowlby One", cursive;
-  color: #4627A3;
+  background-color: #8E76C7;
+  color: white;
+}
+
+.ghgato {
+  width: 30%;
 }
 
 .info {
