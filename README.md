@@ -1,6 +1,6 @@
 # GitHubGato
 
-<img src="./src/assets/LandingSmugGato.png" width="100px;" style="margin: 10px"/>
+<img src="./src/assets/LandingSmugGato.png" width="200px;" style="margin: 10px"/>
 
 *GitHubGato is a new and innovated way to learn and play with coding commands on GitHub. GitHubGato incorporates a game like mechanic that engages users in learning and makes learning programs easier. Our team is inspired to improve the education curiculmn in programming through these innovative ways of learning that is user and beginner friendly, engaging, encourages users to not only learn but to want to purse in this field of study, and most importantly, let users have fun with coding.*
 # Inspiration
