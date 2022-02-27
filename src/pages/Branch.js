@@ -36,59 +36,45 @@ export default function Branch() {
     />
 
       <h1 className='title'>Branching Out!</h1>
+      <div className='container'>
+        <div className='col-md-12 d-flex flex-column align-items-center justify-content-center'>
+          <img src= {HappyGato} alt="cute cat pic" className='image'/>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
+          <img src= {GhSc} alt="cute cat pic" className='image intext-img'/>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
 
-        <div className='container'>
-          <div className='row d-flex flex-column align-items-center justify-content-center'>
-            <div className='col-md-12 d-flex flex-column align-items-center justify-content-center'>
-              <img src= {HappyGato} alt="cute cat pic" className='image'/>
-            </div>
-            <div className='col-md-12 d-flex flex-column align-items-center justify-content-center blurb'>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-            <img src= {GhSc} alt="cute cat pic" className='image intext-img'/>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-            </div>
+          <p>Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
+          <img src= {Tentacles} alt="cute cat pic" className='image'/>
+
+          <img src= {OctoGato} alt="cute cat pic" className='image'/>
+
+          <p>Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
+        </div>
+
+        <div className='terminal row no-gutters'>
+          <div className='col-auto g-0'>
+            <div className='line-numbers'>1<br/>2<br/>3<br/>4<br/>5<br/></div>
           </div>
 
-
-            <div className='col-md-12 d-flex flex-column align-items-center justify-content-center blurb'>
-              <p>Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-            <img src= {Tentacles} alt="cute cat pic" className='image'/>
-            </div>
-
-            <div className='col-md-12 d-flex flex-column align-items-center justify-content-center'>
-              <img src= {OctoGato} alt="cute cat pic" className='image'/>
-
-            <div className='col-md-12 d-flex flex-column align-items-center justify-content-center blurb '>
-              <p>Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-              
-              <div className='terminal row no-gutters'>
-                <div className='col-auto g-0'>
-                  <div className='line-numbers'>1<br/>2<br/>3<br/>4<br/>5<br/></div>
-                </div>
-
-                <form className='input-area col-md-10 col-auto' onSubmit={handleSubmit}>
-                  <pre className='input-text'># write your code here!</pre>
-                  <textarea 
-                    className="code" 
-                    required autofocus autocapitalize="none" 
-                    value = {field.answer}
-                    placeholder="your message"
-                    name="message"
-                    onChange= {handleFieldChange}>
-                  </textarea>
-                  <button className='submit'>Submit Answer!</button>
-                </form>
-            </div>
+          <form className='input-area col-md-10 col-auto' onSubmit={handleSubmit}>
+            <pre className='input-text'># write your code here!</pre>
+            <textarea 
+              className="code" 
+              required autofocus autocapitalize="none" 
+              value = {field.answer}
+              placeholder="your message"
+              name="message"
+              onChange= {handleFieldChange}>
+            </textarea>
+            <button className='submit'>Submit Answer!</button>
+          </form>
         </div>
       </div>
-
-
 
       <footer>
         made with ❤ by Kevins, Maiyu, Cirill
       </footer>
-    </div>
     </>
   )
 }

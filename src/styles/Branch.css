@@ -86,7 +86,7 @@ p{
   /* width: calc(100% - 16px); */
   display: block;
   height: 19%;
-  width: calc(100% - 10px);
+  width: calc(100%);
   border-color: var(--cat_purple);
 
   font-family: 'Source Code Pro', monospace;
