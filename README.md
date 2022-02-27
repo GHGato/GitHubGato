@@ -29,6 +29,9 @@ GitHubGato will take it's next steps towards...
 - Developing more game stages for each module and lesson 
 - Adding in user goals and achievements 
 - Making the site mobile friendly
+## Try it Out!
+[Deployment](https://ghgato.github.io/GitHubGato/)
+[Figma](https://www.figma.com/file/686ZSCESx3rzvFAYngZeQV/Github-Gato?node-id=0%3A1)
 
 ## Made with ❤️ by Baruch AIS but Cooler Team:
 | Cirill Dalangin | Hao Kai (Kevin) Liao | Ying Mai |
