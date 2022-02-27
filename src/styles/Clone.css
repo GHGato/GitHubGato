@@ -24,8 +24,8 @@
   font-family: 'Mansalva';
   font-size: 80px;
   text-align: center;
-
-  margin-bottom: 1.5em;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 .image{
@@ -41,9 +41,11 @@
 }
 
 p{
-  margin-top: 2em;
-  margin-bottom: 2em;
-
+  padding-top: .5em;
+  padding-bottom: .5em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  width: 55em;
   font-family: 'Montserrat';
   font-size: 16px;
 }
