@@ -22,7 +22,7 @@ export default function Clone() {
 
   const handleFieldChange = (e) => {
     const {name,value} = e.target;
-    setField((prev)=>({...prev,[name]:value}));
+    setField((prev)=>({...prev,answer:value}));
   };
 
   return(
