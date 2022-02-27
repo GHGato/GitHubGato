@@ -13,9 +13,9 @@ const App =() => {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/GitHubGato" element={<Landing />} />
-      <Route path="/GitHubGato/clone" element={<Clone />} />
-      <Route path="/GitHubGato/branch" element={<Branch />} />
+      <Route path="/" element={<Landing />} />
+      <Route path="/clone" element={<Clone />} />
+      <Route path="/branch" element={<Branch />} />
     </Routes>
   </BrowserRouter>
   );
