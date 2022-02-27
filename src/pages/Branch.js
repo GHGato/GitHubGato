@@ -3,7 +3,7 @@ import "../styles/Branch.css"
 import HappyGato from "../assets/HappyGato.png"
 import OctoGato from "../assets/OctoGato.png"
 import Tentacles from "../assets/Tentacles.png"
-import GhSc from "../assets/githubsc.png"
+import Branching1 from "../assets/Branching_1.png"
 import { useState } from 'react';
 
 const defaultField = {answer: ""};
@@ -14,10 +14,11 @@ export default function Branch() {
   const handleSubmit = (eve) => {
     eve.preventDefault();
 
-    if (field.answer !== 'git clone https://github.com/haokliao/Github-Gato.git'){
+    if (field.answer !== 'git checkout -b "scratch-post"'){
       return alert('WRONG ANSWER')
     }
     setField(defaultField);
+    return alert("Correct! More levels coming soon...")
 
   }
 
@@ -38,26 +39,38 @@ export default function Branch() {
       <h1 className='title'>Branching Out!</h1>
       <div className='container'>
         <div className='col-md-12 d-flex flex-column align-items-center justify-content-center'>
-          <img src= {HappyGato} alt="cute cat pic" className='image'/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-          <img src= {GhSc} alt="cute cat pic" className='image intext-img'/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
+          <img src= {HappyGato} alt="cute cat pic" className='cat-img'/>
+          <p>Now that we have our home, sometimes we want to decorate or remodel. Gato is looking to add some upgrades! But Gato doesn’t know exactly what they want and they want some opinions. This is where branching comes in.</p>
+          <p>We can imagine how our new parts will look like on Gato without actually putting it in our home just yet!</p>
+          <p>We’ll call our home main and the new imagined upgrades a branch named <b>scratch-post</b>.</p>
+          <img src= {Branching1} alt="cute cat pic" className='cat-img intext-img'/>
+          
 
-          <p>Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-          <img src= {Tentacles} alt="cute cat pic" className='image'/>
+          <p>Click on the main button on the top left. Enter the name of your branch. We’ll be using scratch-post because that is what we want to add to our home.
+            <br/><br/>Finally click on “Create branch: [repo-name] from ‘main’ “ and we’ve created our first branch!  </p>
+          <img src= {Tentacles} alt="cute cat pic" className='cat-img'/>
 
-          <img src= {OctoGato} alt="cute cat pic" className='image'/>
+          <img src= {OctoGato} alt="cute cat pic" className='cat-img'/>
 
-          <p>Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
+          <p>Creations and experimentations you do in the branch won’t affect what is in main until you merge them, so you can play around in this new location all you want.</p>
+        
+          <p>
+            Now, in the terminal below, let's make a branch and start adding funky features to Gato!
+          </p>
+          <p>
+            <strong  className='intext-code'>> git checkout -b "scratch-post"</strong>
+          </p>
+          <p><strong><i>How exciting!</i></strong>  </p>
+        
         </div>
 
-        <div className='terminal row no-gutters'>
+
+        <div className='terminal row'>
           <div className='col-auto g-0'>
             <div className='line-numbers'>1<br/>2<br/>3<br/>4<br/>5<br/></div>
           </div>
 
-          <form className='input-area col-md-10 col-auto' onSubmit={handleSubmit}>
+          <form className='input-area col-11 col-md-10' onSubmit={handleSubmit}>
             <pre className='input-text'># write your code here!</pre>
             <textarea 
               className="code" 
