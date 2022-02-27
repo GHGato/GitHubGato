@@ -64,7 +64,7 @@ export default function Clone() {
                 Let's use practice our git clone command by cloning this repo to start the process! 
               </p>
               <p className='intext-code'>
-                <strong>> git clone https://github.com/GHGato/GitHubGato.git</strong>.
+                <strong>> git clone https://github.com/haokliao/Github-Gato.git</strong>
               </p>
               <p><strong><i>How exciting!</i></strong>  </p>
         </div>

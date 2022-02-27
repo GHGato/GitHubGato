@@ -28,14 +28,16 @@
   margin-bottom: .5em;
 }
 
-.image{
-  width:10%;
-  /* height: 50%; */
+.cat-img{
+  width:20%;
+  
 }
+
+
 
 .intext-img{
   display: flex;
-
+  width: 50%;
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -50,7 +52,11 @@ p{
   font-size: 16px;
 }
 
-
+.intext-code{
+  padding-left: .5em;
+  font-family:'Source Code Pro';
+  font-size: 18px
+}
 
 .line-numbers {
   top: 0;
