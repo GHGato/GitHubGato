@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/GitHubGato/static/css/main.1d2c2263.css",
-    "main.js": "/GitHubGato/static/js/main.6cb1e729.js",
-    "static/media/MainGato.png": "/GitHubGato/static/media/MainGato.8fff37b1d88d52526951.png",
-    "static/media/CloneGato.png": "/GitHubGato/static/media/CloneGato.b0c0d52a494a7dbc3a87.png",
-    "static/media/Cloning_1.png": "/GitHubGato/static/media/Cloning_1.4306acaf3a6031089546.png",
-    "static/media/HappyGato.png": "/GitHubGato/static/media/HappyGato.62a364453905cb1b29c8.png",
-    "static/media/ghgato.png": "/GitHubGato/static/media/ghgato.9bc467b22dcbb6a99748.png",
-    "static/media/OctoGato.png": "/GitHubGato/static/media/OctoGato.ba297403184e4ed5cc8c.png",
-    "static/media/octocat.png": "/GitHubGato/static/media/octocat.ba297403184e4ed5cc8c.png",
-    "static/media/Tentacles.png": "/GitHubGato/static/media/Tentacles.09f322c25107c88aa645.png",
-    "static/media/githubsc.png": "/GitHubGato/static/media/githubsc.5d6138a083c8803cdcf1.png",
-    "static/media/githubsc2.png": "/GitHubGato/static/media/githubsc2.f69ad024cbc6ad2fd2ab.png",
-    "index.html": "/GitHubGato/index.html",
-    "main.1d2c2263.css.map": "/GitHubGato/static/css/main.1d2c2263.css.map",
-    "main.6cb1e729.js.map": "/GitHubGato/static/js/main.6cb1e729.js.map"
+    "main.css": "/static/css/main.1d2c2263.css",
+    "main.js": "/static/js/main.63854336.js",
+    "static/media/MainGato.png": "/static/media/MainGato.8fff37b1d88d52526951.png",
+    "static/media/CloneGato.png": "/static/media/CloneGato.b0c0d52a494a7dbc3a87.png",
+    "static/media/Cloning_1.png": "/static/media/Cloning_1.4306acaf3a6031089546.png",
+    "static/media/HappyGato.png": "/static/media/HappyGato.62a364453905cb1b29c8.png",
+    "static/media/ghgato.png": "/static/media/ghgato.9bc467b22dcbb6a99748.png",
+    "static/media/OctoGato.png": "/static/media/OctoGato.ba297403184e4ed5cc8c.png",
+    "static/media/octocat.png": "/static/media/octocat.ba297403184e4ed5cc8c.png",
+    "static/media/Tentacles.png": "/static/media/Tentacles.09f322c25107c88aa645.png",
+    "static/media/githubsc.png": "/static/media/githubsc.5d6138a083c8803cdcf1.png",
+    "static/media/githubsc2.png": "/static/media/githubsc2.f69ad024cbc6ad2fd2ab.png",
+    "index.html": "/index.html",
+    "main.1d2c2263.css.map": "/static/css/main.1d2c2263.css.map",
+    "main.63854336.js.map": "/static/js/main.63854336.js.map"
   },
   "entrypoints": [
     "static/css/main.1d2c2263.css",
-    "static/js/main.6cb1e729.js"
+    "static/js/main.63854336.js"
   ]
 }
