@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root{
+  --background: #FCF5FF;
+  --accent: #F8EAFF;
+  --cat_purple: #8E76C7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+}
+
+.container{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.title{
+  color: black;
+  font-family: 'Mansalva';
+  font-size: 80px;
+  text-align: center;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.image{
+  width:10%;
+  /* height: 50%; */
+}
+
+.intext-img{
+  display: flex;
+
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+p{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  width: 55em;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+
+
+.line-numbers {
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 10px 6px;
+
+  text-align: right;
+  background-color: #999;
+  color: #D5D5D5;
+
+  border-radius: 5px 0px 0px 5px;
+}
+
+
+.input-area{
+  background-color: var(--accent)
+}
+
+.input-text{
+  top: 0;
+  left: 0;
+  padding: 10px 6px;
+  background-color: var(--accent);
+  display: block;
+  line-height: 1.5;
+
+  border-radius: 0px 5px 5px 0px;
+
+}
+
+.code{
+  /* width: calc(100% - 16px); */
+  display: block;
+  height: 19%;
+  width: calc(100% - 10px);
+  border-color: var(--cat_purple);
+
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+
+  resize: none;
+  overflow: auto;
+}
+
+.submit{
+  margin-top: 1.2em;
+}
+
+button{
+  background-color: var(--cat_purple);
+  color: var(--accent);
+  padding: 2px;
+
+}
+
+footer{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: end;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+
+}

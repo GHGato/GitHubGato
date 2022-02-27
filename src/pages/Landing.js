@@ -13,7 +13,7 @@ const Landing =() => {
         <div className="start p-5">
           <h1 className="start-title text-center">Github Gato</h1>
           <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <img src={GhGato} alt="Github Gato" className="img-fluid"/>
+          <img src={GhGato} alt="Github Gato" className="ghgato img-fluid"/>
           <HashLink smooth to="/#info">
             <Button variant="light" size="lg" className="start-button px-5">Git Started</Button>
           </HashLink>

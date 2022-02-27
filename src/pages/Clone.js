@@ -4,10 +4,12 @@ import maincat from "../assets/maincat.png"
 import clonecat from "../assets/clonecat.png"
 import GhSc from "../assets/githubsc.png"
 import { useState } from 'react';
+import {useNavigate} from "react-router-dom";
 
 const defaultField = {answer: ""};
 
 export default function Clone() {
+  let navigate = useNavigate()
   const [field,setField] = useState(defaultField);
 
   const handleSubmit = (eve) => {
@@ -15,6 +17,9 @@ export default function Clone() {
 
     if (field.answer !== 'git clone https://github.com/haokliao/Github-Gato.git'){
       return alert('WRONG ANSWER')
+    }
+    else {
+      navigate("/branch")
     }
     setField(defaultField);
 
