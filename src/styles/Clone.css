@@ -28,16 +28,18 @@
   margin-bottom: .5em;
 }
 
-.cat-img{
-  width:75%;
-  /* height: 50%; */
+.img{
+  width: 100%;
 }
 
 .intext-img{
-  display: flex;
+  width: 90%;
+}
 
-  margin-top: 2em;
-  margin-bottom: 2em;
+.intext-code{
+  padding-left: .5em;
+  font-family:'Source Code Pro';
+  font-size: 18px
 }
 
 p{

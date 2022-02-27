@@ -1,8 +1,9 @@
 import React from 'react';
 import "../styles/Clone.css"
-import maincat from "../assets/maincat.png"
-import clonecat from "../assets/clonecat.png"
-import GhSc from "../assets/githubsc.png"
+import MainGato from "../assets/MainGato.png"
+import CloneGato from "../assets/CloneGato.png"
+import Cloning_1 from "../assets/Cloning_1.png"
+import Cloning_2 from "../assets/Cloning_1.png"
 import { useState } from 'react';
 import {useNavigate} from "react-router-dom";
 
@@ -16,7 +17,7 @@ export default function Clone() {
     eve.preventDefault();
 
     if (field.answer !== 'git clone https://github.com/haokliao/Github-Gato.git'){
-      return alert('WRONG ANSWER')
+      return alert('Try Git Cloning our Repo!')
     }
     else {
       navigate("/branch")
@@ -26,7 +27,7 @@ export default function Clone() {
   }
 
   const handleFieldChange = (e) => {
-    const {name,value} = e.target;
+    const {value} = e.target;
     setField((prev)=>({...prev,answer:value}));
   };
 
@@ -44,36 +45,38 @@ export default function Clone() {
 
       <div className='row'>
         <div className='col-md-3'>
-          <img src= {maincat} alt="cute cat pic" className='cat-img'/>
+          <img src= {MainGato} alt="cute cat pic" className='img'/>
         </div>
         <div className='col-md-9 blurb'>
           <p>Sometimes I wonder what I could do if there were two of me… like a clone! Making a copy of myself at a point in time. That clone would be independent and able to enjoy the internet on its own and not depend on me!
             With GitHub cloning we can make it happen for our repositories.</p>
           <p>Let’s click the green ‘Code’ button to open up a small menu!</p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-        <img src= {GhSc} alt="cute cat pic" className='cat-img intext-img'/>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
+          <img src= {Cloning_1} alt="cute cat pic" className='intext-img'/>
+            <p>
+              Select HTTPS and press the copy button to copy the HTTPS URL.
+              We’re using HTTPS so we can tell GitHub that “this is where our original repository is”. 
+              This will get us the information we need to make the perfect clone!
+            </p>
+          <img src= {Cloning_2} alt="cute cat pic" className='intext-img'/>
+              <p>
+                Now, in the terminal below,
+                Let's use practice our git clone command by cloning this repo to start the process! 
+              </p>
+              <p className='intext-code'>
+                <strong>> git clone https://github.com/GHGato/GitHubGato.git</strong>.
+              </p>
+              <p><strong><i>How exciting!</i></strong>  </p>
         </div>
       </div>
 
-      <div className='row'>
-        <div className='col-md-3'>
-        </div>
-
-        <div className='col-md-9 blurb'>
-          <p>Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
-        <img src= {GhSc} alt="cute cat pic" className='cat-img intext-img'/>
-        </div>
-      </div>
 
       <div className='row'>
         <div className='col-md-3'>
-          <img src= {clonecat} alt="cute cat pic" className='cat-img'/>
+          <img src= {CloneGato} alt="cute cat pic" className='img'/>
         </div>
 
         <div className='col-md-9 blurb '>
-          <p>Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
           <div className='terminal row no-gutters'>
 
             <div className='col-auto g-0'>
