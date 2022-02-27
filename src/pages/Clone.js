@@ -47,12 +47,28 @@ export default function Clone() {
             <img src= {clonecat} alt="cute cat pic" className='image'/>
           </div>
 
-          <div className='col-md-9 blurb'>
-            Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. 
-            <textarea id="code" autofocus autocapitalize="none"></textarea>
+          <div className='col-md-9 blurb '>
+            <p>Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
+            <div className='terminal row no-gutters'>
+
+              <div className='col-auto  g-0'>
+                <div className='line-numbers'>1<br/>2<br/>3<br/>4<br/>5<br/></div>
+              </div>
+
+              <div className='input-area col-md-8'>
+                <pre className='input-text'>#write your code here!</pre>
+                <textarea className="code" autofocus autocapitalize="none"></textarea>
+                
+              </div>
+            </div>
+            
 
           </div>
         </div>
+
+        <footer>
+          made with ❤ by Kevins, Maiyu, Cirill
+        </footer>
 
       </div>
 
