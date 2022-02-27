@@ -5,7 +5,7 @@
 - The game mechanic added to learning is inspired our developers' love for games and Flexbox Froggie.
 # Building Blocks
 - **February 25, 2022:** GitHubGato started as a basic website design on Figma. We picked our theme, colors, and fonts for the base of the website before building on top of it. We flushed out ideas for the landing page, lessons, game stages, and mascot designs. 
-- **February 26, 2023:** We finished Gato's different designs for each page and lesson. Our developers worked on the coding and placement of the game using GitHub and javascript to bring this project to life.
+- **February 26, 2023:** We finished Gato's different designs for each page and lesson. Our developers worked on the coding and placement of the game using GitHub and html to bring this project to life.
 # Challenges
 - Many great ideas, very limited time
 - Formatting and design of site
