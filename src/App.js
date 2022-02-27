@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from "react-router-dom";
@@ -11,13 +11,13 @@ import Branch from './pages/Branch.js'
 
 const App =() => {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path="/" element={<Landing />} />
       <Route path="clone" element={<Clone />} />
       <Route path="branch" element={<Branch />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
   );
 }
 
