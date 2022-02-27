@@ -20,7 +20,7 @@ export default function Clone() {
       return alert('Try Git Cloning our Repo!')
     }
     else {
-      navigate("/GithubGato/branch")
+      navigate("/GitHubGato/branch")
     }
     setField(defaultField);
 

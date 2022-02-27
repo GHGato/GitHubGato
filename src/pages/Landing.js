@@ -15,7 +15,7 @@ const Landing =() => {
           <p className="text-center">Welcome I’m Gato! I’m so happy you’ve joined me on my journey to learn how to use GitHub. I can’t wait to see what we can learn together!
           <br/><br/>When you’re ready let's Git Started. </p>
           <img src={GhGato} alt="Github Gato" className="ghgato img-fluid"/>
-          <HashLink smooth to="/GithubGato/#info">
+          <HashLink smooth to="/GitHubGato/#info">
             <Button variant="light" size="lg" className="start-button px-5">Git Started</Button>
           </HashLink>
         </div>
@@ -27,7 +27,7 @@ const Landing =() => {
           <img src={GhSc} alt="Github repository" className="info-pic1 my-3" />
           <p className="text-center">Today, you'll be learning how to use all sorts of Github commands as you transform Gato into an Octocat!</p>
           <img src={Octocat} alt="Octocat" className="info-pic1 my-3 img-fluid" />
-          <Link to="/GithubGato/clone">
+          <Link to="/GitHubGato/clone">
             <Button variant="light" size="lg" className="start-button px-5">Git Cloning!</Button>
           </Link>
         </div>
