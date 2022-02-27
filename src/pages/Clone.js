@@ -47,7 +47,10 @@ export default function Clone() {
           <img src= {maincat} alt="cute cat pic" className='image'/>
         </div>
         <div className='col-md-9 blurb'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
+          <p>Sometimes I wonder what I could do if there were two of me… like a clone! Making a copy of myself at a point in time. That clone would be independent and able to enjoy the internet on its own and not depend on me!
+            With GitHub cloning we can make it happen for our repositories.</p>
+          <p>Let’s click the green ‘Code’ button to open up a small menu!</p>
+
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
         <img src= {GhSc} alt="cute cat pic" className='image intext-img'/>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit metus risus, ut consequat sem hendrerit et. Praesent augue nisi, dignissim eget lorem eget, commodo vestibulum erat. Sed et lacus augue. Nulla ac rutrum enim. Donec aliquet nulla ac odio ultrices accumsan. </p>
