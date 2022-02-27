@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  HashRouter,
+  BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
@@ -11,13 +11,13 @@ import Branch from './pages/Branch.js'
 
 const App =() => {
   return (
-    <HashRouter>
+    <BrowserRouter>
     <Routes>
       <Route path="/GitHubGato" element={<Landing />} />
       <Route path="/GitHubGato/clone" element={<Clone />} />
       <Route path="/GitHubGato/branch" element={<Branch />} />
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
   );
 }
 
